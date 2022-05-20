@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Amarante&family=Arima+Madurai:wght@400;700&family=Roboto+Slab:wght@600;700&family=ZCOOL+XiaoWei&display=swap');
+
+.aboutUsNav{
+    text-shadow: 0 0 5px #f5ff80;
+}
+
+.content{
+    background-color: #030303;
+}
+
+.head{
+    background-image: url(../Asset/aboutUsBackground.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 562px;
+    font-family: 'Roboto Slab';
+    width: 100%;
+}
+
+.head h2{
+    align-items: center;
+    justify-content: center;
+    font-size: 64px;
+    font-weight: 600;
+    text-shadow: 0 0 5px #f5ff80;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Slab';
+    background-color: #030303;
+}
+
+.text p{
+    text-align: center;
+    font-size: 24px;
+    width: 1115px;
+}
+
+.p1{
+    padding-top: 30px;
+}
+
+.p2{
+    padding-top: 55px;
+}
+
+.content span{
+    color: #9f0000;
+}

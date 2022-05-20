@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Amarante&family=Arima+Madurai:wght@400;700&family=Roboto+Slab:wght@600;700&family=ZCOOL+XiaoWei&display=swap');
+
+.homeNav{
+    text-shadow: 0 0 5px #f5ff80;
+}
+
+.content{
+    background-color: #030303;
+}
+
+.headline{
+    display: flex;
+    flex-direction: row;
+}
+
+.headline img{
+    width: 602px;
+    height: 742px;
+    object-fit: cover;
+}
+
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 65px;
+    font-family: 'Roboto Slab';
+    width: 100%;
+}
+
+.tagline{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-shadow: 0 0 5px #f5ff80;
+    margin-top: 35px;
+    margin-left: 60px;
+}
+
+.tagline h2{
+    font-size: 64px;
+    font-weight: 600;   
+}
+
+.tagline h5{
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+.explain{
+    display: flex;
+    flex-direction: column;
+    background-color: #030303;
+    align-items: center;
+    font-family: Roboto Slab;
+    padding-bottom: 50px;
+}
+
+.explain h3{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.explain h3 span{
+    color: #9F0000;
+}
+
+.explain p{
+    margin-top: 10px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 700;
+    width: 650px;
+}
+
+.findMore{
+    margin-top: 75px;
+    background-color: #9F0000;
+    border: none;
+    width: 187px;
+    height: 71px;
+    color: #FFFFFF;
+    font-family: 'Roboto Slab';
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.findMore:hover, .findMore:active{
+    background-color: #6b0000;
+    color: #727272;
+}

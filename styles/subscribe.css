@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Amarante&family=Arima+Madurai:wght@400;700&family=Roboto+Slab:wght@600;700&family=ZCOOL+XiaoWei&display=swap');
+
+.subsNav{
+    text-shadow: 0 0 5px #f5ff80;
+}
+
+.content{
+    background-image: url(../Asset/subscribeBackground.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: top;
+    background-color: #030303;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 906px;
+    font-family: 'Roboto Slab';
+    width: 100%;
+}
+
+.tagline{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.tagline h2{
+    font-size: 64px;
+    font-weight: 600;
+    padding-top: 200px;
+    text-shadow: 0 0 5px #f5ff80;
+}
+
+.tagline h5{
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 107px;
+    padding-bottom: 20px;
+    width: 545px;
+    text-shadow: 0 0 5px #f5ff80;
+}
+
+.container{
+    border: solid 1px;
+    border-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 640px;
+    height: 400px;
+    padding: 5px;
+    border-radius: 10px;
+    background: rgba(3, 3, 5, .2);
+}
+
+.input{
+    margin: 10px;
+    width: 100%;
+}
+
+.input label{
+    font-size: 24px;
+    padding-top: 15px;
+    padding-left: 15px;
+    color: #FFFFFF;
+    width: 110px;
+    display: inline-block;
+    font-family: 'Arial';
+    font-weight: 700;
+}
+
+.input input{
+    width: 410px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: solid 1px white;
+    color: white;
+    font-size: 20px;
+}
+
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+
+.input select{
+    width: 410px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: solid 1px white;
+    color: white;
+    font-size: 20px;
+  }
+
+.input option {
+    color: rgb(255, 255, 255);
+    background-color: #030303;
+    outline: none;
+    border: none;
+    font-size: 20px;
+}
+
+.terms{
+    display: inline;
+    font-size: 16px;
+    font-weight: 700;
+    align-self: flex-start;
+    margin-left: 11px;
+    margin-top: 15px;
+}
+
+.terms input{
+    width: 15px;
+    height: 15px;
+}
+
+.terms span{
+    color: #9f0000;
+}
+
+.container button{
+    background-color: #9f0000;
+    color: #FFFFFF;
+    font-family: 'Arima Madurai';
+    font-size: 24px;
+    font-weight: 700;
+    width: 150px;
+    height: 55px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 25px;
+}
+
+.container button:hover, .container button:active{
+    background-color: #6b0000;
+    color: #727272;
+}

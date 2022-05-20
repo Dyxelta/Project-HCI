@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Amarante&family=Arima+Madurai:wght@400;700&family=Roboto+Slab:wght@600;700&family=ZCOOL+XiaoWei&display=swap');
+
+.contactUsNav{
+    text-shadow: 0 0 5px #f5ff80;
+}
+
+.content{
+    background-color: #030303;
+}
+
+.head{
+    background-image: url(../Asset/contactUsBackground.png);
+    background-size: cover;
+    background-position: top;
+    height: 553px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Slab';
+    width: 100%;
+}
+
+.tagline{
+    text-align: center;
+    text-shadow: 0 0 5px #f5ff80;
+}
+
+.tagline h2{
+    font-size: 64px;
+    font-weight: 600;
+    padding-top: 170px;
+}
+
+.tagline h5{
+    font-size: 24px;
+    font-weight: 600;
+    width: 546px;
+    padding-top: 100px;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    height: 358px;
+    background-color: #030303;
+    font-family: 'Roboto Slab';
+    margin-top: 70px;
+    margin-left: 98px;
+    margin-bottom: -40px;
+}
+
+.main img{
+    height: 36px;
+    width: 36px;
+}
+
+.main p{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.location{
+    text-align: center;
+    padding-top: 15px;
+}
+
+.location h5{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.office{
+    color: #9f0000;
+    padding-top: 15px;
+}
+
+.line{
+    border-left: 5px solid #FFFFFF;
+    height: 312px;
+    margin-left: 57px;
+}
+
+.social{
+    padding-left: 64px;
+}
+
+.social img{
+    padding-top: 15px;
+}
+
+.notFirst{
+    padding-top: 7px;
+}
+
+.email img{
+    width: 36px;
+    height: 26px;
+}
+
+.contact{
+    padding-top: 10px;
+    padding-left: 240px;
+}
+
+.contact img{
+    padding-top: 15px;
+}
+
+.footer{
+    height: 184px;
+}

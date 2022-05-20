@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Amarante&family=Arima+Madurai:wght@400;700&family=Roboto+Slab:wght@600;700&family=ZCOOL+XiaoWei&display=swap');
+
+body, html{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    width: 100%;
+    zoom: 93%
+}
+
+h1, h2, h3, h4, h5, p{
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+.header{
+    background-color: #030303;
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    min-height: 20vh;
+    width: 100%;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Amarante';   
+}
+
+.logoText{
+    font-size: 24px;
+    font-weight: 100;
+}
+
+.tradeMark {
+    font-size: 64px;
+    font-family: 'ZCOOL XiaoWei';
+    font-weight: 400;
+}
+
+.tradeMark span{
+    color: #9F0000;
+}
+
+a:hover, a:active{
+    color: #727272;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    font-family: "Arima Madurai";
+    font-weight: 700;
+    font-size: 24px;
+    margin-right: 40px;
+}
+
+.navbar a{
+    margin-left: 35px;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+footer{
+    background-color: #030303;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Slab';
+    min-height: 20vh;
+    width: 100%;
+}
+
+footer p{
+    font-size: 14px;
+    font-weight: 300;
+    color: #9F0000;
+}
+
+footer h5{
+    font-size: 18px;
+    font-weight: 400;
+    color: #9F0000;
+    padding-top: 20px;
+}
+
+footer span{
+    font-family: 'ZCOOL XiaoWei';
+}
+
+.graphy{
+    color: #FFFFFF;
+}
