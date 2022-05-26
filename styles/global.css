@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, p{
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 5px;
-    min-height: 20vh;
+    height: 20vh;
     width: 100%;
 }
 
@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, p{
     font-weight: 100;
 }
 
-.tradeMark {
+.tradeMark{
     font-size: 64px;
     font-family: 'ZCOOL XiaoWei';
     font-weight: 400;
@@ -79,7 +79,7 @@ footer{
     justify-content: center;
     align-items: center;
     font-family: 'Roboto Slab';
-    min-height: 20vh;
+    height: 20vh;
     width: 100%;
 }
 
@@ -102,4 +102,29 @@ footer span{
 
 .graphy{
     color: #FFFFFF;
+}
+
+@media screen and (max-width: 768px) {
+    .header{
+        height: 15vh;
+    }
+    .tradeMark{
+        font-size: 48px !important;
+    }
+    .logoText{
+        font-size: 18px;
+    }
+    .navbar{
+        font-size: 18px;
+    }
+    
+    footer{
+        height: 15vh;
+    }
+    footer p{
+        font-size: 11px;
+    }
+    footer h5{
+        font-size: 14px;
+    }
 }
