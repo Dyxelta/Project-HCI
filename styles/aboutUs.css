@@ -56,11 +56,16 @@
 }
 
 @media screen and (max-width: 768px) {
+    .aboutUsNav{
+        text-shadow: 0 0 3px #f5ff80;
+    }
+
     .head{
         height: 337px;
     }
     .head h2{
         font-size: 38px;
+        text-shadow: 0 0 3px #f5ff80;
     }
 
    .text p{

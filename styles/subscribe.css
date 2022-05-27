@@ -141,6 +141,10 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
 }
 
 @media screen and (max-width: 768px) {
+    .subsNav{
+        text-shadow: 0 0 3px #f5ff80;
+    }
+
     .content{
         height: 544px;
     }
