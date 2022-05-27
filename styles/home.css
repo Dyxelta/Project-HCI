@@ -38,6 +38,7 @@
     text-shadow: 0 0 5px #f5ff80;
     margin-top: 35px;
     margin-left: 60px;
+    text-align: center;
 }
 
 .tagline h2{
@@ -96,4 +97,50 @@
 .findMore:hover, .findMore:active{
     background-color: #6b0000;
     color: #727272;
+}
+
+@media screen and (max-width: 768px) {
+    .head{
+        padding-left: 39px;
+        margin-top: 21px;
+    }
+
+    .tagline{
+        margin-left: 36px;
+    }
+
+    .headline img{
+        width: 361px;
+        height: 445px;
+    }
+
+    .tagline h2{
+        font-size: 36px;
+    }
+
+    .tagline h5{
+        font-size: 9px;
+    }
+
+    .findMore{
+        margin-top: 45px;
+        width: 112px;
+        height: 43px;
+        font-size: 14px;
+        margin-left: 30px;
+    }
+
+    .explain{
+        padding-bottom: 30px;
+    }
+
+    .explain h3{
+        font-size: 19px;
+    }
+
+    .explain p{
+        margin-top: 6px;
+        font-size: 8px;
+        width: 390px;
+    }
 }
