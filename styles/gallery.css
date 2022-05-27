@@ -53,7 +53,7 @@
 }
 
 .lGallery{
-    padding-top: 70px;
+    margin-top: 70px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -164,4 +164,107 @@
 
 .ppic2:hover, .ppic2:active{
     filter: brightness(80%);
+}
+
+@media screen and (max-width: 768px) {
+    .galleryNav{
+        text-shadow: 0 0 3px #f5ff80;
+    }
+
+    .head{
+        height: 360px;
+    }
+
+    .tagline{
+        text-shadow: 0 0 3px #f5ff80;
+    }
+
+    .tagline h2{
+        font-size: 38px;
+        padding-top: 158px;
+    }
+    
+    .tagline h5{
+        font-size: 14px;
+        padding-top: 62px;
+    }
+
+    .bodyText{
+        font-size: 38px;
+    }
+
+    .Landscape h2{
+        margin-top: 42px;
+    }
+
+    .lGallery{
+        margin-top: 42px;
+        gap: 5px;
+    }
+
+    .top{
+        gap: 5px;
+    }
+
+    .bot{
+        gap: 5px;
+    }
+
+    .lpic1 img{
+        width: 420px;
+        height: 240px;
+    }
+
+    .lpic2 img{
+        width: 420px;
+        height: 240px;
+    }
+
+    .lpic3 img{
+        width: 420px;
+        height: 240px;
+    }
+
+    .lpic4{
+        width: 420px;
+        height: 240px;
+    }
+
+    .lpic4 h3{
+        bottom: 144px;
+        font-size: 29px;
+    }
+
+    .lpic4 img{
+        width: 420px;
+        height: 240px;
+    }
+
+    .Potrait h2{
+        padding-top: 51px;
+    }
+
+    .pGallery{
+        margin-top: 42px;
+        gap: 5px;
+    }
+
+    .ppic1 img{
+        width: 420px;
+        height: 672px;
+    }
+
+    .ppic2 img{
+        width: 420px;
+        height: 672px;
+    }
+
+    .ppic2{
+        height: 672px;
+    }
+
+    .ppic2 h3{
+        bottom: 350px;
+        font-size: 29px;
+    }
 }

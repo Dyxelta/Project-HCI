@@ -107,6 +107,87 @@
     padding-top: 15px;
 }
 
-.footer{
-    height: 184px;
+@media screen and (max-width: 768px) {
+    .contactUsNav{
+        text-shadow: 0 0 3px #f5ff80;
+    }
+
+    .head{
+        height: 332px;
+    }
+
+    .tagline{
+        text-shadow: 0 0 3px #f5ff80;
+    }
+
+    .tagline h2{
+        font-size: 38px;
+        padding-top: 102px;
+    }
+    
+    .tagline h5{
+        font-size: 14px;
+        width: 328px;
+        padding-top: 60px;
+    }
+
+    .main{
+        height: 215px;
+        margin-top: 42px;
+        margin-left: 59px;
+        margin-bottom: -24px;
+    }
+
+    .main img{
+        height: 22px;
+        width: 22px;
+    }
+
+    .main p{
+        font-size: 11px;
+    }
+
+    .location{
+        padding-top: 9px;
+    }
+
+    .location h5{
+        font-size: 14px;
+    }
+
+    .office{
+        padding-top: 9px;
+    }
+
+    .line{
+        border-left: 3px solid #FFFFFF;
+        height: 187px;
+        margin-left: 34px;
+    }
+
+    .social{
+        padding-left: 32px;
+    }
+
+    .social img{
+        padding-top: 9px;
+    }
+
+    .notFirst{
+        padding-top: 4px;
+    }
+
+    .email img{
+        width: 22px;
+        height: 16px;
+    }
+
+    .contact{
+        padding-top: 6px;
+        padding-left: 144px;
+    }
+
+    .contact img{
+        padding-top: 9px;
+    }
 }

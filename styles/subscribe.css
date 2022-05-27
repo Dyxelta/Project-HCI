@@ -24,13 +24,13 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+    text-shadow: 0 0 5px #f5ff80;
 }
 
 .tagline h2{
     font-size: 64px;
     font-weight: 600;
     padding-top: 200px;
-    text-shadow: 0 0 5px #f5ff80;
 }
 
 .tagline h5{
@@ -39,7 +39,6 @@
     padding-top: 107px;
     padding-bottom: 20px;
     width: 545px;
-    text-shadow: 0 0 5px #f5ff80;
 }
 
 .container{
@@ -139,4 +138,72 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
 .container button:hover, .container button:active{
     background-color: #6b0000;
     color: #727272;
+}
+
+@media screen and (max-width: 768px) {
+    .content{
+        height: 544px;
+    }
+
+    .tagline h2{
+        font-size: 39px;
+        padding-top: 120px;
+        text-shadow: 0 0 3px #f5ff80;
+    }
+    
+    .tagline h5{
+        font-size: 14px;
+        padding-top: 64px;
+        padding-bottom: 12px;
+        width: 327px;
+    }
+    
+    .container{
+        width: 384px;
+        height: 240px;
+        padding: 3px;
+    }
+    
+    .input{
+        margin: 6px;
+    }
+    
+    .input label{
+        font-size: 14px;
+        padding-top: 9px;
+        padding-left: 9px;
+        width: 66px;
+    }
+    
+    .input input{
+        width: 246px;
+        font-size: 12px;
+    }
+    
+    .input select{
+        width: 246px;
+        font-size: 12px;
+      }
+    
+    .input option {
+        font-size: 12px;
+    }
+    
+    .terms{
+        font-size: 9px;
+        margin-left: 7px;
+        margin-top: 9px;
+    }
+    
+    .terms input{
+        width: 9px;
+        height: 9px;
+    }
+    
+    .container button{
+        font-size: 14px;
+        width: 90px;
+        height: 33px;
+        margin-top: 15px;
+    }
 }

@@ -136,3 +136,36 @@ footer span{
         padding-top: 12px;
     }
 }
+
+@media screen and (max-width: 576px) {
+    .header{
+        height: 7vh;
+        padding-left: 7px;
+        padding-right: 7px;
+        padding-top: 2px;
+    }
+    .tradeMark{
+        font-size: 18px !important;
+    }
+    .logoText{
+        font-size: 8px;
+    }
+    .navbar{
+        font-size: 8px;
+        margin-right: 13px;
+    }
+    .navbar a{
+        margin-left: 12px;
+    }
+    
+    footer{
+        height: 7vh;
+    }
+    footer p{
+        font-size: 5px;
+    }
+    footer h5{
+        font-size: 6px;
+        padding-top: 7px;
+    }
+}

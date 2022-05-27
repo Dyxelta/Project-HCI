@@ -54,3 +54,25 @@
 .content span{
     color: #9f0000;
 }
+
+@media screen and (max-width: 768px) {
+    .head{
+        height: 337px;
+    }
+    .head h2{
+        font-size: 38px;
+    }
+
+   .text p{
+        font-size: 14px;
+        width: 669px;  
+    }
+   
+    .p1{
+        padding-top: 18px;
+    }
+
+    .p2{
+    padding-top: 33px;
+    }
+}
