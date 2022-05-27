@@ -5,6 +5,7 @@ body, html{
     padding: 0px;
     overflow-x: hidden;
     width: 100%;
+    height: 100%;
     zoom: 93%
 }
 
@@ -112,7 +113,7 @@ footer span{
         padding-top: 3px;
     }
     .tradeMark{
-        font-size: 32px !important;
+        font-size: 38px !important;
     }
     .logoText{
         font-size: 14px;
@@ -124,12 +125,11 @@ footer span{
     .navbar a{
         margin-left: 21px;
     }
-    
     footer{
         height: 12vh;
     }
     footer p{
-        font-size: 9px;
+        font-size: 8px;
     }
     footer h5{
         font-size: 11px;
@@ -137,7 +137,7 @@ footer span{
     }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 426px) {
     .header{
         height: 7vh;
         padding-left: 7px;

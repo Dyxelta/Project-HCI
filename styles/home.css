@@ -38,7 +38,6 @@
     text-shadow: 0 0 5px #f5ff80;
     margin-top: 35px;
     margin-left: 60px;
-    text-align: center;
 }
 
 .tagline h2{
@@ -105,38 +104,45 @@
     }
 
     .head{
-        padding-left: 39px;
-        margin-top: 21px;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+        margin: 0px;
     }
 
     .tagline{
-        margin-left: 36px;
         text-shadow: 0 0 3px #f5ff80;
+        text-align: center;
+        margin: 0px;
     }
 
     .headline img{
         width: 361px;
         height: 445px;
+        padding-left: 100px;
     }
 
     .tagline h2{
-        font-size: 36px;
+        font-size: 38px;
     }
 
     .tagline h5{
-        font-size: 9px;
+        font-size: 11px;
     }
 
     .findMore{
         margin-top: 45px;
+        margin-bottom: 45px;
         width: 112px;
         height: 43px;
-        font-size: 14px;
-        margin-left: 30px;
+        font-size: 11px;
+        margin-left: 0px;
     }
 
     .explain{
         padding-bottom: 30px;
+        height: 30vh;
+        justify-content: center;
     }
 
     .explain h3{
@@ -148,26 +154,31 @@
         font-size: 8px;
         width: 390px;
     }
+
+    .headline{
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 426px) {
     .homeNav{
         text-shadow: 0 0 2px #f5ff80;
     }
 
-    .head{
-        padding-left: 22px;
-        margin-top: 12px;
-    }
-
     .tagline{
-        margin-left: 20px;
         text-shadow: 0 0 2px #f5ff80;
+        text-align: center;
     }
 
     .headline img{
         width: 199px;
         height: 245px;
+        padding-left: 55px;
     }
 
     .tagline h2{
@@ -180,10 +191,10 @@
 
     .findMore{
         margin-top: 25px;
+        margin-bottom: 25px;
         width: 62px;
         height: 24px;
         font-size: 8px;
-        margin-left: 17px;
     }
 
     .explain{
