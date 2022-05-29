@@ -132,10 +132,13 @@
     }
 
     .main{
-        height: 215px;
-        margin-top: 42px;
-        margin-left: 59px;
-        margin-bottom: -24px;
+        margin: 0px;
+        padding: 0px;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     .main img{
@@ -160,17 +163,24 @@
     }
 
     .line{
-        border-left: 3px solid #FFFFFF;
-        height: 187px;
-        margin-left: 34px;
+        border-left: 0px;
+        border-top: 3px solid #FFFFFF;
+        width: 40vw;
+        height: 0px;
+        margin-left: 0px;
+        margin-top: 34px;
     }
 
     .social{
-        padding-left: 32px;
+        padding-left: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     .social img{
-        padding-top: 9px;
+        padding-top: 34px;
     }
 
     .notFirst{
@@ -183,11 +193,87 @@
     }
 
     .contact{
-        padding-top: 6px;
-        padding-left: 144px;
+        padding-top: 66px;
+        padding-left: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     .contact img{
-        padding-top: 9px;
+        padding-top: 34px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .contactUsNav{
+        text-shadow: 0 0 2px #f5ff80;
+    }
+
+    .head{
+        height: 183px;
+    }
+
+    .tagline{
+        text-shadow: 0 0 2px #f5ff80;
+    }
+
+    .tagline h2{
+        font-size: 21px;
+        padding-top: 56px;
+    }
+    
+    .tagline h5{
+        font-size: 8px;
+        width: 180px;
+        padding-top: 33px;
+    }
+
+    .main img{
+        height: 12px;
+        width: 12px;
+    }
+
+    .main p{
+        font-size: 6px;
+    }
+
+    .location{
+        padding-top: 5px;
+    }
+
+    .location h5{
+        font-size: 8px;
+    }
+
+    .office{
+        padding-top: 5px;
+    }
+
+    .line{
+        border-top: 2px solid #FFFFFF;
+        margin-top: 19px;
+    }
+
+    .social img{
+        padding-top: 19px;
+    }
+
+    .notFirst{
+        padding-top: 2px;
+    }
+
+    .email img{
+        width: 12px;
+        height: 9px;
+    }
+
+    .contact{
+        padding-top: 36px;
+    }
+
+    .contact img{
+        padding-top: 19px;
     }
 }
