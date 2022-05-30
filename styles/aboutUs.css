@@ -40,7 +40,7 @@
 .text p{
     text-align: center;
     font-size: 24px;
-    width: 1115px;
+    width: 87.1vw;
 }
 
 .p1{
@@ -68,16 +68,51 @@
         text-shadow: 0 0 3px #f5ff80;
     }
 
+    .text{
+        height: 100vh;
+        justify-content: space-evenly;
+    }
+
    .text p{
-        font-size: 14px;
-        width: 669px;  
+        font-size: 21px;
     }
    
     .p1{
-        padding-top: 18px;
+        padding: 0px;
     }
 
     .p2{
-    padding-top: 33px;
+        padding-top: 0px;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .aboutUsNav{
+        text-shadow: 0 0 2px #f5ff80;
+    }
+
+    .head{
+        height: 185px;
+    }
+    .head h2{
+        font-size: 21px;
+        text-shadow: 0 0 2px #f5ff80;
+    }
+
+    .text{
+        height: 100vh;
+        justify-content: space-evenly;
+    }
+
+   .text p{
+        font-size: 12px;
+    }
+   
+    .p1{
+        padding: 0px;
+    }
+
+    .p2{
+        padding-top: 0px;
     }
 }

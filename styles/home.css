@@ -111,7 +111,7 @@
     }
 
     .tagline{
-        text-shadow: 0 0 3px #f5ff80;
+        text-shadow: 0 0 4px #f5ff80;
         text-align: center;
         margin: 0px;
     }
@@ -123,11 +123,11 @@
     }
 
     .tagline h2{
-        font-size: 38px;
+        font-size: 46px;
     }
 
     .tagline h5{
-        font-size: 11px;
+        font-size: 13px;
     }
 
     .findMore{
@@ -135,7 +135,7 @@
         margin-bottom: 45px;
         width: 112px;
         height: 43px;
-        font-size: 11px;
+        font-size: 13px;
         margin-left: 0px;
     }
 
@@ -146,13 +146,13 @@
     }
 
     .explain h3{
-        font-size: 19px;
+        font-size: 23px;
     }
 
     .explain p{
         margin-top: 6px;
-        font-size: 8px;
-        width: 390px;
+        font-size: 10px;
+        width: 468px;
     }
 
     .headline{
@@ -171,7 +171,7 @@
     }
 
     .tagline{
-        text-shadow: 0 0 2px #f5ff80;
+        text-shadow: 0 0 3px #f5ff80;
         text-align: center;
     }
 
@@ -182,11 +182,11 @@
     }
 
     .tagline h2{
-        font-size: 20px;
+        font-size: 24px;
     }
 
     .tagline h5{
-        font-size: 5px;
+        font-size: 6px;
     }
 
     .findMore{
@@ -194,7 +194,7 @@
         margin-bottom: 25px;
         width: 62px;
         height: 24px;
-        font-size: 8px;
+        font-size: 7px;
     }
 
     .explain{
@@ -202,12 +202,12 @@
     }
 
     .explain h3{
-        font-size: 11px;
+        font-size: 13px;
     }
 
     .explain p{
         margin-top: 3px;
-        font-size: 4px;
-        width: 215px;
+        font-size: 5px;
+        width: 258px;
     }
 }

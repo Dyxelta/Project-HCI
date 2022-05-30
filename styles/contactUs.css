@@ -121,20 +121,20 @@
     }
 
     .tagline h2{
-        font-size: 38px;
+        font-size: 48px;
         padding-top: 102px;
     }
     
     .tagline h5{
-        font-size: 14px;
-        width: 328px;
+        font-size: 18px;
+        width: 410px;
         padding-top: 60px;
     }
 
     .main{
         margin: 0px;
         padding: 0px;
-        height: 80vh;
+        height: 100vh;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -142,33 +142,33 @@
     }
 
     .main img{
-        height: 22px;
-        width: 22px;
+        height: 28px;
+        width: 28px;
     }
 
     .main p{
-        font-size: 11px;
-    }
-
-    .location{
-        padding-top: 9px;
-    }
-
-    .location h5{
         font-size: 14px;
     }
 
+    .location{
+        padding-top: 11px;
+    }
+
+    .location h5{
+        font-size: 18px;
+    }
+
     .office{
-        padding-top: 9px;
+        padding-top: 11px;
     }
 
     .line{
         border-left: 0px;
         border-top: 3px solid #FFFFFF;
-        width: 40vw;
+        width: 384px;
         height: 0px;
         margin-left: 0px;
-        margin-top: 34px;
+        margin-top: 43px;
     }
 
     .social{
@@ -180,16 +180,16 @@
     }
 
     .social img{
-        padding-top: 34px;
+        padding-top: 43px;
     }
 
     .notFirst{
-        padding-top: 4px;
+        padding-top: 5px;
     }
 
     .email img{
-        width: 22px;
-        height: 16px;
+        width: 28px;
+        height: 20px;
     }
 
     .contact{
@@ -208,7 +208,7 @@
 
 @media screen and (max-width: 425px) {
     .contactUsNav{
-        text-shadow: 0 0 2px #f5ff80;
+        text-shadow: 0 0 3px #f5ff80;
     }
 
     .head{
@@ -216,57 +216,58 @@
     }
 
     .tagline{
-        text-shadow: 0 0 2px #f5ff80;
+        text-shadow: 0 0 3px #f5ff80;
     }
 
     .tagline h2{
-        font-size: 21px;
+        font-size: 26px;
         padding-top: 56px;
     }
     
     .tagline h5{
-        font-size: 8px;
-        width: 180px;
+        font-size: 10px;
+        width: 226px;
         padding-top: 33px;
     }
 
     .main img{
-        height: 12px;
-        width: 12px;
+        height: 19px;
+        width: 19px;
     }
 
     .main p{
-        font-size: 6px;
+        font-size: 10px;
     }
 
     .location{
-        padding-top: 5px;
+        padding-top: 8px;
     }
 
     .location h5{
-        font-size: 8px;
+        font-size: 13px;
     }
 
     .office{
-        padding-top: 5px;
+        padding-top: 8px;
     }
 
     .line{
         border-top: 2px solid #FFFFFF;
-        margin-top: 19px;
+        width: 264px;
+        margin-top: 30px;
     }
 
     .social img{
-        padding-top: 19px;
+        padding-top: 30px;
     }
 
     .notFirst{
-        padding-top: 2px;
+        padding-top: 4px;
     }
 
     .email img{
-        width: 12px;
-        height: 9px;
+        width: 19px;
+        height: 14px;
     }
 
     .contact{

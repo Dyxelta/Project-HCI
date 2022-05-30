@@ -264,7 +264,7 @@
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 426px) {
     .galleryNav{
         text-shadow: 0 0 2px #f5ff80;
     }
@@ -335,7 +335,7 @@
 
     .Potrait h2{
         margin-top: 23px;
-        margin-top: 23px;
+        margin-bottom: 23px;
     }
 
     .pGallery{
