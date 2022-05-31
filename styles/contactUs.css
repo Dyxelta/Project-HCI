@@ -42,12 +42,11 @@
 .main{
     display: flex;
     flex-direction: row;
-    height: 358px;
+    height: 58vh;
     background-color: #030303;
     font-family: 'Roboto Slab';
     margin-top: 70px;
     margin-left: 98px;
-    margin-bottom: -40px;
 }
 
 .main img{
