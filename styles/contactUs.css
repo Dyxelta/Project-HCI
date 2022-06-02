@@ -74,11 +74,11 @@
 .line{
     border-left: 5px solid #FFFFFF;
     height: 312px;
-    margin-left: 57px;
+    margin-left: 5vw;
 }
 
 .social{
-    padding-left: 64px;
+    padding-left: 5vw;
 }
 
 .social img{
@@ -96,7 +96,7 @@
 
 .contact{
     padding-top: 10px;
-    padding-left: 240px;
+    padding-left: 18.8vw;
 }
 
 .contact img{
