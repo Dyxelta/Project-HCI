@@ -34,18 +34,19 @@
             <h5>Be our patron to experience the best service we can provide</h5>
         </div>
         
-        <div class="container">
+        <form class="container" id="form">
             <div class="input">
                 <label for="Name">Name </label>
-                <input type="text" id="name" name="Name">
+                <input type="text" id="name" name="Name" required>
+                <p id="nameError">Must be more than 1 char</p>
             </div>
             <div class="input">
                 <label for="Email">Email </label>
-                <input type="email" id="email" name="Email">
+                <input type="email" id="email" name="Email" required>
             </div>
             <div class="input">
                 <label for="Country">Country </label>
-                <select name="Country" id="country">
+                <select name="Country" id="country" required>
                     <option selected disabled hidden></option>
                     <option value="Singapore">Singapore</option>
                     <option value="Indonesia">Indonesia</option>
@@ -54,18 +55,18 @@
             </div>
             <div class="input">
                 <label for="Phone">Phone </label>
-                <input type="number" id="phone" name="Phone">
+                <input type="number" id="phone" name="Phone" required>
+                <p id="phoneError">Must starts with 0</p>
             </div>
 
             <p class="terms">
-                <input type="checkbox" id="checkbox"> I accept the terms and conditions of <span>MT</span>graphy
+                <input type="checkbox" id="checkbox" required> I accept the terms and conditions of <span>MT</span>graphy
             </p>
 
-            <button>
+            <button type="submit" onclick="send()">
                 Subscribe
             </button>
-
-        </div>
+        </form>
     </div>
 
     <footer class="footer">
@@ -74,4 +75,7 @@
         <h5>Powered by <span>MT<span class="graphy">graphy</span></span></h5>
     </footer>
 </body>
+
+<script src="../js/script.js"></script>
+
 </html>
