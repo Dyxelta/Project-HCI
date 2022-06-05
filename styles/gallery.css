@@ -74,12 +74,33 @@
     gap: 8px;
 }
 
+.lpic1{
+    border: 1px solid #FFFFFF;
+    border-radius: 6px;
+    width: 54.7vw;
+    height: 400px;
+}
+
 .lpic1 img{
     width: 54.7vw;
     height: 400px;
 }
 
+.lpic2{
+    border: 1px solid #FFFFFF;
+    border-radius: 6px;
+    width: 54.7vw;
+    height: 400px;
+}
+
 .lpic2 img{
+    width: 54.7vw;
+    height: 400px;
+}
+
+.lpic3{
+    border: 1px solid #FFFFFF;
+    border-radius: 6px;
     width: 54.7vw;
     height: 400px;
 }
@@ -132,7 +153,21 @@
     object-fit: cover;
 }
 
+.ppic1{
+    border: 1px solid #FFFFFF;
+    border-radius: 6px;
+    width: 54.7vw;
+    height: 1120px;
+}
+
 .ppic1 img{
+    width: 54.7vw;
+    height: 1120px;
+}
+
+.ppic2{
+    border: 1px solid #FFFFFF;
+    border-radius: 6px;
     width: 54.7vw;
     height: 1120px;
 }
@@ -141,12 +176,6 @@
     width: 54.7vw;
     height: 1120px;
     filter: blur(10px);
-}
-
-.ppic2{
-    border: 1px solid #FFFFFF;
-    border-radius: 6px;
-    height: 1120px;
 }
 
 .ppic2 h3{
@@ -208,11 +237,23 @@
         gap: 5px;
     }
 
+    .lpic1{
+        height: 240px;
+    }
+
     .lpic1 img{
         height: 240px;
     }
 
+    .lpic2{
+        height: 240px;
+    }
+
     .lpic2 img{
+        height: 240px;
+    }
+
+    .lpic3{
         height: 240px;
     }
 
@@ -243,17 +284,21 @@
         gap: 5px;
     }
 
+    .ppic1{
+        height: 672px;
+    }
+
     .ppic1 img{
+        height: 672px;
+    }
+
+    .ppic2{
         height: 672px;
     }
 
     .ppic2 img{
         height: 672px;
         filter: blur(6px);
-    }
-
-    .ppic2{
-        height: 672px;
     }
 
     .ppic2 h3{
@@ -306,11 +351,23 @@
         gap: 3px;
     }
 
+    .lpic1{
+        height: 132px;
+    }
+
     .lpic1 img{
         height: 132px;
     }
 
+    .lpic2{
+        height: 132px;
+    }
+
     .lpic2 img{
+        height: 132px;
+    }
+
+    .lpic3{
         height: 132px;
     }
 
@@ -340,15 +397,19 @@
         gap: 3px;
     }
 
+    .ppic1{
+        height: 370px;
+    }
+
     .ppic1 img{
         height: 370px;
     }
 
-    .ppic2 img{
+    .ppic2{
         height: 370px;
     }
 
-    .ppic2{
+    .ppic2 img{
         height: 370px;
     }
 
