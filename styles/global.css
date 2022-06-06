@@ -18,6 +18,7 @@ header{
     background-color: #030303;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 5px;
@@ -55,17 +56,12 @@ a:hover, a:active{
 .navbar {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
     align-items: center;
-    width: 100%;
     font-family: "Arima Madurai";
     font-weight: 700;
     font-size: 24px;
     margin-right: 40px;
-}
-
-.navbar a{
-    margin-left: 35px;
+    gap: 35px;
 }
 
 a {
@@ -121,9 +117,7 @@ footer span{
     .navbar{
         font-size: 14px;
         margin-right: 24px;
-    }
-    .navbar a{
-        margin-left: 21px;
+        gap: 21px;
     }
     footer{
         height: 12vh;
@@ -153,11 +147,8 @@ footer span{
     .navbar{
         font-size: 8px;
         margin-right: 13px;
+        gap: 12px;
     }
-    .navbar a{
-        margin-left: 12px;
-    }
-    
     footer{
         height: 7vh;
     }
